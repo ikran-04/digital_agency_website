@@ -2,14 +2,14 @@ import React from "react";
 
 const LearnMore = () => {
   return (
-    <div className="py-20 flex justify-between items-center">
+    <div className="py-20 px-5 flex flex-col md:flex-row justify-between space-y-10 md:space-y-5 items-center">
       <div className="md:w-1/3">
         <img src="/learn_img.svg" alt="" />
       </div>
       <div className="md:w-1/2 space-y-5">
         <p>Lorem ipsum, dolor sit amet consectetur.</p>
         <h1 className="text-5xl font-semibold">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          Lorem, ipsum dolor sit amet consectetur.
         </h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium

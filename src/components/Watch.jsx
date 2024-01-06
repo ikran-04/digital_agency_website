@@ -2,7 +2,7 @@ import React from "react";
 
 const Watch = () => {
   return (
-    <div className="py-20 flex justify-between items-center">
+    <div className="py-20 px-5 flex flex-col md:flex-row justify-between items-center">
       <div className="md:w-1/2 space-y-5">
         <p className="text-green-400">
           Lorem ipsum, dolor sit amet consectetur.

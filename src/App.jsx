@@ -11,7 +11,7 @@ import Watch from "./components/Watch";
 
 function App() {
   return (
-    <div className="bg-[url('/bg.svg')] bg-cover">
+    <div className="bg-[url('/bg.svg')] dark:bg-[url('/bg_dark.svg')] bg-cover">
       <div className="container m-auto">
         <Navbar />
         <Hero />

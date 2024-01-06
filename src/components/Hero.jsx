@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="py-20 flex justify-between items-center">
+    <div className="py-20 flex flex-col md:flex-row px-5 justify-between items-center">
       <div className="md:w-1/2 space-y-5">
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
         <h1 className="text-7xl font-semibold">

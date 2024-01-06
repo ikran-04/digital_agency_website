@@ -13,9 +13,9 @@ const PricePlan = () => {
           officia temporibus quia, voluptas quibusdam enim at ad officiis.
         </p>
       </div>
-      <div className="grid md:grid-cols-3 gap-32 justify-items-center py-10 ">
+      <div className="grid md:grid-cols-3 gap-32 justify-items-center py-10 px-10">
         <PricingCard
-          bg="white"
+          bg="white dark:bg-green-900 "
           title="Basic"
           text="black"
           img="/check_green.svg"
@@ -31,7 +31,7 @@ const PricePlan = () => {
           button="bg-white text-green-500"
         />
         <PricingCard
-          bg="white"
+          bg="white dark:bg-green-900"
           title="advanced"
           text="black"
           img="/check_green.svg"

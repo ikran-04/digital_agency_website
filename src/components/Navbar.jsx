@@ -6,7 +6,7 @@ import { BsThreeDotsVertical } from "react-icons/bs";
 const Navbar = () => {
   return (
     <div className="flex justify-between items-center p-5">
-      <h1>8KRA</h1>
+      <h1>Agency</h1>
       <div className="flex items-center space-x-6">
         <ul className="hidden md:flex items-center space-x-8">
           <li>Home</li>
